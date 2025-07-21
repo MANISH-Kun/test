@@ -18,6 +18,9 @@ public class loopingStatements {
         for(i=0;i<=2;i++){
             System.out.println("for loop executed :"+i+"th time");
         }
+        
+
+    
 
     }
 }
