@@ -8,11 +8,13 @@ public class largestnobtwtwonos {
             }
             else if(a==b){
                 System.out.println("both"+a+"and"+b+"are equal");
+            
             }
-            } 
-            else {
+             else{
                 System.out.println("largest is:"+b);
             }
         }
+            } 
+           
     }
-}
+

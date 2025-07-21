@@ -16,7 +16,7 @@ public class findevenandoddcountinnumber {
             }
             number=number/10;
         }
-        System.out.println("even count"+evencount);
+        System.out.println("even count:"+evencount);
         System.out.println("odd count:"+oddcount);
     }
 }
