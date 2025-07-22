@@ -2,7 +2,7 @@ public class perfectnumber {
     public static void main(String[] args) {
         int number = 255;
         int factors=0;
-        for(int i=1;i<=number-1;i++){  // for optimized code for(int i=1;i<=number/2;i++)
+        for(int i=1;i<=number-1;i++){  // for optimized code replace => for(int i=1;i<=number/2;i++)
             if(number%i==0){
                 factors=factors+i;
 
