@@ -6,7 +6,7 @@ public class happyNumber {
         while(number!=1&&number!=4){
              int sum = 0;
        
-            while(number>0){
+            while(number>0){ 
             int lastdig = number%10;
             product=lastdig*lastdig;
             sum=sum+product;
