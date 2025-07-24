@@ -3,6 +3,7 @@ public class methodOverRiding {
         System.out.println("addition of  numbers : "+add(10,20, 30,40));
         System.out.println("addition of  numbers : "+add(10,20, 30));
         System.out.println("addition of  numbers : "+add(10,20));
+         System.out.println("addition of  numbers : "+add('j','t'));
     }
     public static int add(int a,int b,int c,int d) {
         return a+b+c+d;
@@ -16,5 +17,12 @@ public class methodOverRiding {
         return a+b;
         
     }
+    
+    public static int add(char a,char b) {
+        System.out.println(a+b);
+        return a+b;
+        
+    }
+    
 
 }
