@@ -14,6 +14,24 @@ public class Person{
         this.panCard=panCard;
         this.licenceNumber=licenceNumber;
     }
+    public Person(String name,int age,char gender ,String panCard,long licenceNumber) {
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+       
+        this.panCard=panCard;
+        this.licenceNumber=licenceNumber;
+    }
+
+    public Person(String name,int age,char gender ,long adharCard  ,long licenceNumber) {
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+        this.adharCard=adharCard;
+        this.licenceNumber=licenceNumber;
+    }
+
+
 
     
 }
