@@ -6,6 +6,8 @@ public class inheritancemain {
         // p.display();
 
         // c.show();
+        Car c = new Car("toyota",200,"Fortuner",4);
+        c.displayInfo();
 
     }
 }
