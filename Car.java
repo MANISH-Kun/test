@@ -3,12 +3,16 @@ public class Car extends Vehicle {
     String model;
     int numOfDorrs;
 
-    public Car(String brand,int maxSpeed,String model,int numOfDorrs) {
-        super(brand,maxSpeed);
-        this.model=model;
-        this.numOfDorrs=numOfDorrs;
-
+    void runCar(){
+        System.out.println("car is running");
     }
+
+    // public Car(String brand,int maxSpeed,String model,int numOfDorrs) {
+    //     super(brand,maxSpeed);
+    //     this.model=model;
+    //     this.numOfDorrs=numOfDorrs;
+
+    // }
     
     
 
