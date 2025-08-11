@@ -3,6 +3,7 @@
 public class CastingDemo {
     public static void main(String[] args) {
         Vehicle v = new Car();
+        Bike b = (Bike)v;
         v.startEngine();
         // v.runCar();  //The method runCar() is undefined for the type Vehicle
 
