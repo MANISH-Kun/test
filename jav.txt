@@ -1,0 +1,11 @@
+strt, gm, excepton is handled, bye stop
+
+
+
+error.
+
+
+
+try block can have multiple catch block,
+try try catch not posible , catchblock should come after try block;
+a tryb block can have multiple catch blck 
