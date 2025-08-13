@@ -2,6 +2,7 @@ public class Car extends Vehicle {
 
     String model;
     int numOfDorrs;
+    int a = 10;
 
     void runCar(){
         System.out.println("car is running");
