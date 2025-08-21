@@ -5,7 +5,7 @@ public class StudentMainMethod {
 
         // System.out.println(s1.name==s2.name);
         // System.out.println(s1.age==s2.age);
-        // System.out.println(s1.name.equals(s2.name));
+        System.out.println(s1.name.equals(s2.name));
         if(s1.name==s2.name && s1.name.equals(s2.name)&&s1.age==s2.age ){
             System.out.println("all are same");
         }
